@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:4beeb809fca54a376b88851185a29d4da6be572395e3c10c4fe2f4aa413d8dee`
-- Created: `2026-09-01T00:13:49.47409074Z`
+- Image ID: `sha256:adfb9c16f5ddae351b04706583af0654a751b4e7301db134bb462a68c1e36fab`
+- Created: `2026-09-03T23:15:42.260504536Z`
 - Virtual Size: ~ 4.01 Gb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -18,7 +18,7 @@
   - `SWIFT_WEBROOT=https://download.swift.org`
 - Labels:
   - `architecture=x86_64`
-  - `build-date=2026-08-31T15:56:45Z`
+  - `build-date=2026-09-01T06:45:46Z`
   - `com.redhat.component=ubi9-container`
   - `com.redhat.license_terms=https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI`
   - `cpe=cpe:/a:redhat:enterprise_linux:9::appstream`
@@ -31,12 +31,12 @@
   - `io.openshift.tags=base rhel9`
   - `maintainer=Swift Infrastructure <swift-infrastructure@forums.swift.org>`
   - `name=ubi9/ubi`
-  - `org.opencontainers.image.created=2026-08-31T15:56:45Z`
-  - `org.opencontainers.image.revision=a843a58318bb7558aeae89306d0e3d2d3d21dfa1`
-  - `release=1788191706`
+  - `org.opencontainers.image.created=2026-09-01T06:45:46Z`
+  - `org.opencontainers.image.revision=b353a7c5167fc9b52dde0d7483a39f41ea885fef`
+  - `release=1788245065`
   - `summary=Provides the latest release of Red Hat Universal Base Image 9.`
   - `url=https://catalog.redhat.com/en/search?searchType=containers`
-  - `vcs-ref=a843a58318bb7558aeae89306d0e3d2d3d21dfa1`
+  - `vcs-ref=b353a7c5167fc9b52dde0d7483a39f41ea885fef`
   - `vcs-type=git`
   - `vendor=Red Hat, Inc.`
   - `version=9.8`
@@ -263,11 +263,16 @@ $ dnf --quiet download --source --url dbus-1.12.20-8.el9
 https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/d/dbus-1.12.20-8.el9.src.rpm
 ```
 
-### `rpm` package: `dbus-broker-28-7.el9.x86_64`
+### `rpm` package: `dbus-broker-28-9.el9_8.x86_64`
 
 Licenses (from `rpm --query`): ASL 2.0
 
-**WARNING:** unable to find source (`dnf download` failed or returned no results)!
+Source:
+
+```console
+$ dnf --quiet download --source --url dbus-broker-28-9.el9_8
+https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/d/dbus-broker-28-9.el9_8.src.rpm
+```
 
 ### `rpm` package: `dbus-common-1.12.20-8.el9.noarch`
 
@@ -677,11 +682,16 @@ $ dnf --quiet download --source --url groff-base-1.22.4-10.el9
 https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/groff-1.22.4-10.el9.src.rpm
 ```
 
-### `rpm` package: `gzip-1.12-1.el9.x86_64`
+### `rpm` package: `gzip-1.12-2.el9_8.x86_64`
 
 Licenses (from `rpm --query`): GPLv3+ and GFDL
 
-**WARNING:** unable to find source (`dnf download` failed or returned no results)!
+Source:
+
+```console
+$ dnf --quiet download --source --url gzip-1.12-2.el9_8
+https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/gzip-1.12-2.el9_8.src.rpm
+```
 
 ### `rpm` package: `ima-evm-utils-1.6.2-2.el9.x86_64`
 
@@ -3087,11 +3097,16 @@ $ dnf --quiet download --source --url systemd-rpm-macros-252-67.el9_8.4.noarch
 https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/s/systemd-252-67.el9_8.4.src.rpm
 ```
 
-### `rpm` package: `tar-1.34-11.el9.x86_64`
+### `rpm` package: `tar-1.34-13.el9_8.x86_64`
 
 Licenses (from `rpm --query`): GPLv3+
 
-**WARNING:** unable to find source (`dnf download` failed or returned no results)!
+Source:
+
+```console
+$ dnf --quiet download --source --url tar-1.34-13.el9_8
+https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/t/tar-1.34-13.el9_8.src.rpm
+```
 
 ### `rpm` package: `tpm2-tss-3.2.3-1.el9.x86_64`
 
